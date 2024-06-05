@@ -3,8 +3,6 @@ import { login, noFound, register } from "../scenes/public";
 import { bookings, addFlight, editFlight, dashboard } from "../scenes/private";
 import { Dashboard } from "../components/dashboard/dashboard";
 
-
-
 //objeto para encontrar la ruta y ejecutar la funcion
 const routesConfig = {
     public: [

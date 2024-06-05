@@ -37,7 +37,6 @@ export function login() {
 
         if(respUser.ok){
             const user = await respUser.json();
-            console.log(user);
             const validateUser = user.find(e => e.email === email && e.password === password)
             if(validateUser){
                 alert('Login success');
@@ -54,8 +53,5 @@ export function login() {
             alert('Err in promise in App');
             return;
         }
-
-
     })
-
 }

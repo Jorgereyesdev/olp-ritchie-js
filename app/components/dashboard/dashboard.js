@@ -27,5 +27,4 @@ export function Dashboard(pageContent,logic){
     bookings.addEventListener("click", () => {
         navigateTo("/bookings");
     });
-
 }

@@ -55,6 +55,14 @@
       "birthdate": "20/06/1995",
       "password": "123456",
       "roleId": 2
+    },
+    {
+      "id": "2d2c",
+      "name": "jorge",
+      "email": "jorge@gmail.com",
+      "birthdate": "2000-08-06",
+      "password": "reyes608",
+      "roleId": 1
     }
   ],
   "flights": [
@@ -106,6 +114,12 @@
       "FlightId": "a151",
       "UserId": "a941",
       "bookingDate": "2024-06-05T01:56:34.465Z"
+    },
+    {
+      "id": "98eb",
+      "FlightId": "a151",
+      "UserId": "2d2c",
+      "bookingDate": "2024-06-05T05:55:29.138Z"
     }
   ]
 }
