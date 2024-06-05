@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "id": "10",
+      "name": "John",
+      "email": "johndoe@example.com",
+      "birthdate": "2023-02-01",
+      "password": "123",
+      "roleId": 1
+    },
+    {
+      "id": "1b87",
+      "name": "christian",
+      "email": "christian@correo.com",
+      "birthdate": "20/06/1995",
+      "password": "123",
+      "roleId": 2
+    },
+    {
+      "id": "d564",
+      "name": "jorge",
+      "email": "jorge@correo.co",
+      "birthdate": "1999-06-03",
+      "password": "123",
+      "roleId": 2
+    },
+    {
+      "id": "067f",
+      "name": "christian",
+      "email": "christian75876@gmail.com",
+      "birthdate": "1995-06-20",
+      "password": "123",
+      "roleId": 2
+    },
+    {
+      "id": "6acf",
+      "name": "Jorge",
+      "email": "johndoe3@example.com",
+      "birthdate": "20/06/1995",
+      "password": 123,
+      "roleId": 2
+    },
+    {
+      "id": "ca5a",
+      "name": "prueba",
+      "email": "prueba@correo.co",
+      "birthdate": "20/06/1995",
+      "password": 123,
+      "roleId": 2
+    },
+    {
+      "id": "a941",
+      "name": "prueba",
+      "email": "pruebaA@correo.co",
+      "birthdate": "20/06/1995",
+      "password": "123456",
+      "roleId": 2
+    }
+  ],
+  "flights": [
+    {
+      "id": "35",
+      "number": "654",
+      "destination": "Medellin",
+      "departure": "Bogota",
+      "arrival": "2023-02-10",
+      "capacity": "2023-02-10"
+    },
+    {
+      "id": "a151",
+      "number": "658",
+      "origin": "Barranquilla",
+      "destination": "San andres",
+      "departure": "2024-06-20",
+      "arrival": "2024-06-21",
+      "capacity": "200"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "35",
+      "userId": "10",
+      "flightId": "35",
+      "bookingDate": "2023-02-10"
+    },
+    {
+      "id": "089e",
+      "FlightId": "35",
+      "UserId": "067f",
+      "bookingDate": "2024-06-04T23:57:07.629Z"
+    },
+    {
+      "id": "8ea4",
+      "FlightId": "a151",
+      "UserId": "067f",
+      "bookingDate": "2024-06-05T00:14:31.760Z"
+    },
+    {
+      "id": "15c5",
+      "FlightId": "35",
+      "UserId": "067f",
+      "bookingDate": "2024-06-05T00:31:06.097Z"
+    },
+    {
+      "id": "9ddc",
+      "FlightId": "a151",
+      "UserId": "a941",
+      "bookingDate": "2024-06-05T01:56:34.465Z"
+    }
+  ]
+}

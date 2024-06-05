@@ -1,0 +1,11 @@
+section {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: auto;
+   padding: 15px;
+   width: 80%;
+   background-color: rgb(127, 92, 163);
+   border-radius: 5px;
+}
+
+
